@@ -4,10 +4,10 @@ import 'tippy.js/dist/tippy.css';
 export const Home = () => {
   return (
     <>
-      <div className="px-2 py-12 mt-16 flex flex-col justify-center items-center text-center">
+      <div className="px-2 py-12 flex flex-col justify-center items-center text-center">
         <img className="inline-flex object-cover border-4 border-indigo-600 dark:border-indigo-400 rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-indigo-600/100 dark:shadow-indigo-700/100 bg-indigo-50 dark:bg-indigo-900 text-indigo-600 dark:text-indigo-400 h-24 w-24 !h-48 !w-48" src="https://res.cloudinary.com/dmlr5hyj9/image/upload/v1702591596/jnypb1vsxlnsx38nlhbx.png" alt="Akanmu Akinkunmi Joseph PetrJoe" />
-        <h1 className="text-2xl text-gray-500 font-bold mt-2">
-          Akanmu A. Joseph
+        <h1 className="text-2xl text-white font-bold mt-2">
+          Akanmu Akinkunmi Joseph
         </h1>
         <h2 className="text-base md:text-xl text-gray-500 font-bold">
           Software Engineer @
@@ -29,7 +29,7 @@ export const Home = () => {
           </li>
 
           <li className="mx-2">
-            <a href="" target="_blank" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/akanmu-akinkunmi-joseph" target="_blank" aria-label="LinkedIn">
               <svg className="h-6 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <title>LinkedIn</title>
@@ -40,7 +40,7 @@ export const Home = () => {
           </li>
 
           <li className="mx-2">
-            <a href="" target="_blank" aria-label="Twitter">
+            <a href="https://twitter.com/_petrjoe_" target="_blank" aria-label="Twitter">
               <svg className="h-6 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <title>Twitter</title>
@@ -60,7 +60,7 @@ export const Home = () => {
           </li>
 
           <li className="mx-2">
-            <a href="" target="_blank" aria-label="Email">
+            <a href="mailto:akinjossy1298@gmail.com" target="_blank" aria-label="Email">
               <svg className="h-6 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <title>Mail</title>
