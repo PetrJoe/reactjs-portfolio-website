@@ -1,29 +1,29 @@
 import React from 'react';
 
 const projectsData = [
-  {
-    id: 1,
-    image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba',
-    title: 'Single Origin Blend',
-    description: 'Our most popular blend, featuring beans from a single farm in Ethiopia. Notes of chocolate, berries, and citrus.',
-  },
-  {
-    id: 2,
-    image: 'https://plus.unsplash.com/premium_photo-1675716443562-b771d72a3da7',
-    title: 'Dark Roast Blend',
-    description: 'A bold and flavorful blend of beans from Brazil, Colombia, and Indonesia. Notes of caramel, nuts, and tobacco.',
-  },
-  {
-    id: 3,
-    image: 'https://plus.unsplash.com/premium_photo-1675716443562-b771d72a3da7',
-    title: 'Another Dark Roast Blend',
-    description: 'A bold and flavorful blend of beans from Brazil, Colombia, and Indonesia. Notes of caramel, nuts, and tobacco.',
-  },
+  // {
+  //   id: 1,
+  //   image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba',
+  //   title: 'Single Origin Blend',
+  //   description: 'Our most popular blend, featuring beans from a single farm in Ethiopia. Notes of chocolate, berries, and citrus.',
+  // },
+  // {
+  //   id: 2,
+  //   image: 'https://plus.unsplash.com/premium_photo-1675716443562-b771d72a3da7',
+  //   title: 'Dark Roast Blend',
+  //   description: 'A bold and flavorful blend of beans from Brazil, Colombia, and Indonesia. Notes of caramel, nuts, and tobacco.',
+  // },
+  // {
+  //   id: 3,
+  //   image: 'https://plus.unsplash.com/premium_photo-1675716443562-b771d72a3da7',
+  //   title: 'Another Dark Roast Blend',
+  //   description: 'A bold and flavorful blend of beans from Brazil, Colombia, and Indonesia. Notes of caramel, nuts, and tobacco.',
+  // },
 ];
 
 export const Project = () => {
   return (
-    <section className="py-20 text-white">
+    <section className="py-10 text-white bg-gray-900 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
           <h3 className="font-bold text-2xl leading-[1.1] sm:text-2xl md:text-4xl p-6">Projects</h3>

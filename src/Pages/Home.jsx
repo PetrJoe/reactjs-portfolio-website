@@ -4,7 +4,8 @@ import 'tippy.js/dist/tippy.css';
 export const Home = () => {
   return (
     <>
-      <div className="px-2 py-12 flex flex-col justify-center items-center text-center">
+      <div className="px-2 py-12 flex flex-col justify-center items-center text-center" id="home">
+        <div className="mt-20"></div>
         <img className="inline-flex object-cover border-4 border-indigo-600 dark:border-indigo-400 rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-indigo-600/100 dark:shadow-indigo-700/100 bg-indigo-50 dark:bg-indigo-900 text-indigo-600 dark:text-indigo-400 h-24 w-24 !h-48 !w-48" src="https://res.cloudinary.com/dmlr5hyj9/image/upload/v1702591596/jnypb1vsxlnsx38nlhbx.png" alt="Akanmu Akinkunmi Joseph PetrJoe" />
         <h1 className="text-2xl text-white font-bold mt-2">
           Akanmu Akinkunmi Joseph
@@ -13,7 +14,7 @@ export const Home = () => {
           Software Engineer @
           <a href="" target="_blank"
             className="text-indigo-900 hover:text-indigo-600 font-bold border-b-0 hover:border-b-4 hover:border-b-indigo-300 transition-all mb-2">
-            XYZ
+            HealthStarks
           </a>
         </h2>
         <ul className="flex flex-row mt-2">
